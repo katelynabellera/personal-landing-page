@@ -20,7 +20,8 @@ body {
   
 
 #back-to-top {
-    font-family: 'Montserrat', arial, sans-serif;
+    /* font-family: 'Montserrat', arial, sans-serif; */
+    font-weight: bold;
     position: fixed;
     bottom: 0;
     color: lightblue;
@@ -34,9 +35,9 @@ body {
     text-decoration: none;
 }
 
-#back-to-top:hover{
+/* #back-to-top:hover, .song:hover{
     text-decoration: underline;
-}
+} */
 
 
 h1, h2{
@@ -46,6 +47,7 @@ h1, h2{
 
 h4 {
     font-weight: normal;
+    text-decoration: none;
 }
 
 .title {
@@ -62,7 +64,7 @@ h4 {
     justify-content: space-between; 
 }
 
-header nav a:hover, footer:hover {
+header nav a:hover, footer:hover, #back-to-top:hover, .song:hover {
     text-decoration: underline
 }
 
@@ -83,6 +85,7 @@ p img {
 ul {
     list-style-type: none;
     padding: 30px;
+    padding-bottom: 0px;
     margin: 0;
     display: flex;
     justify-content: space-around;
@@ -123,7 +126,7 @@ li a {
 a {
     display: block;
     text-decoration: none;
-    color: lightblue;
+    color: rgb(113, 187, 212);
 }
 
 .picture {
